@@ -1,4 +1,4 @@
-# SQL Vault
+# SQL Vault (Em Desenvolvimento)
 
 O **SQL Vault** é uma aplicação web desenvolvida para armazenar, organizar e compartilhar consultas SQL de forma prática e colaborativa.
 
