@@ -55,6 +55,8 @@
 
     <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.45.0/min/vs/loader.min.js"></script>
+
     <script>
     const body = document.body;
     const menuToggle = document.getElementById('menuToggle');
@@ -72,6 +74,7 @@
         });
     }
     </script>
+    <?= $this->renderSection('scripts') ?>
 </body>
 
 </html>
