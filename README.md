@@ -1,69 +1,61 @@
-# CodeIgniter 4 Application Starter
+# SQL Vault
 
-## What is CodeIgniter?
+O **SQL Vault** é uma aplicação web desenvolvida para armazenar, organizar e compartilhar consultas SQL de forma prática e colaborativa.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## 🎯 Objetivo
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+O projeto tem como finalidade centralizar queries SQL utilizadas no dia a dia, evitando perda de código, retrabalho e facilitando o compartilhamento entre desenvolvedores e analistas.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## 🚀 Funcionalidades atuais
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+- Cadastro de consultas SQL
+- Organização por banco de dados
+- Sistema de tags para categorização
+- Controle de visibilidade (privado ou compartilhado)
+- Interface moderna com editor de código
+- Suporte multiusuário
 
-## Installation & updates
+## 🧠 Ideia do projeto
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+Muitos profissionais mantêm consultas espalhadas em:
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+- arquivos locais
+- blocos de notas
+- chats
+- e-mails
 
-## Setup
+O SQL Vault resolve isso criando um repositório centralizado, acessível e organizado.
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+## 🔧 Tecnologias utilizadas
 
-## Important Change with index.php
+- PHP (CodeIgniter 4)
+- MySQL
+- JavaScript
+- Monaco Editor (VS Code no navegador)
+- HTML + CSS (layout customizado)
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## 👥 Público-alvo
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+- Desenvolvedores
+- Analistas de dados
+- DBAs
+- Times que trabalham com SQL no dia a dia
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## 📌 Status do projeto
 
-## Repository Management
+🚧 Em desenvolvimento
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+Novas funcionalidades estão sendo adicionadas continuamente, como:
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+- histórico de versões
+- favoritos
+- execução de queries (futuro)
+- melhorias no editor
 
-## Server Requirements
+## 💡 Visão futura
 
-PHP version 8.2 or higher is required, with the following extensions installed:
+Transformar o SQL Vault em uma ferramenta completa de produtividade para quem trabalha com banco de dados, com recursos próximos a um "GitHub de queries".
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+---
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - The end of life date for PHP 8.1 was December 31, 2025.
-> - If you are still using below PHP 8.2, you should upgrade immediately.
-> - The end of life date for PHP 8.2 will be December 31, 2026.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+Feito com 💻 para facilitar o dia a dia com SQL.
